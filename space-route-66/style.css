@@ -1,0 +1,35 @@
+table {
+  background-color: #ccc;
+}
+
+table tr {
+
+}
+
+table td {
+
+}
+
+table td img {
+  width: 138px;
+  cursor: pointer;
+}
+
+canvas {
+  border: 1px solid #C2C2C2;
+  display: inline-block;
+  vertical-align: top;
+
+}
+
+canvas img:hover {
+  cursor: grab;
+}
+
+.assets-container {
+  width: 430px;
+  display: inline-block;
+  vertical-align: top;
+  height: 600px;
+  overflow: scroll;
+}

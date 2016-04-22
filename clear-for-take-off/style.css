@@ -1,0 +1,61 @@
+#map {
+  width: 100%;
+  height: 100vh;
+}
+
+.forecast-container {
+  width: 470px;
+  position: absolute;
+  right: 100px;
+  top: 150px;
+  background-color: rgba(0, 0, 0, 0.6);
+  border-radius: 5px;
+  color: #FFF;
+}
+
+.forecast-container .weather-container {
+  width: 470px;
+}
+
+.forecast-container .weather-container .icon {
+  width: 160px;
+  display: inline-block;
+}
+
+.forecast-container .weather-container .icon img {
+  width: 150px;
+}
+
+.forecast-container .weather-container .details {
+  width: 300px;
+  margin-top: 24px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.forecast-container .weather-container .details .description {
+  font-size: 30px;
+  line-height: 30px;
+}
+
+.forecast-container .weather-container .details .temperature {
+  font-size: 75px;
+  line-height: 75px;
+}
+
+.forecast-container .weather-container .details .temperature sup {
+  font-size: 60%;
+}
+
+.forecast-container .extra-details-container {
+  font-size: 24px;
+}
+
+.forecast-container .extra-details-container table td.right {
+  text-align: right;
+}
+
+.forecast-container .analysis-result {
+  font-size: 16px;
+  padding: 0 8px 10px 10px;
+}
